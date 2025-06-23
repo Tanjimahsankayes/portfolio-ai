@@ -1,5 +1,6 @@
 import React from 'react';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
+import myPic from '../assets/mypic.jpg'
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -15,7 +16,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           {/* Profile Image Placeholder */}
           <div className="w-32 h-32 mx-auto mb-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
-            <span className="text-4xl font-bold text-white">TAK</span>
+           <img src={myPic} alt="" className='w-32 h-32 rounded-full'/>
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
